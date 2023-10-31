@@ -49,18 +49,154 @@ let questions = [
       "Tất cả tinh thần và lực lượng, tính mạng và của cải",
     ],
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+  {
+    numb: 6,
+    question:
+      "Giai đoạn hình thành tư tưởng yêu nước và chí hướng cứu nước của Chủ tịch Hồ Chí Minh được tính từ:",
+    answer: "1890 - 1911",
+    options: ["1890 - 1911", "1911 - 1920", "1921 - 1930", "1930 - 1941"],
+  },
+  {
+    numb: 7,
+    question:
+      "Giai đoạn vượt qua thử thách, kiên trì giữ vững lập trường cách mạng của Chủ tịch Hồ Chí Minh được tính từ:",
+    answer: "1930 - 1941",
+    options: ["1911 - 1920", "1921 - 1930", "1930 - 1941", "1941 - 1969"],
+  },
+  {
+    numb: 8,
+    question:
+      "Giai đoạn tư tưởng Hồ Chí Minh tiếp tục phát triển hoàn thiện được tính từ:",
+    answer: "1941 - 1969",
+    options: ["1911 - 1920", "1921 - 1930", "1930 - 1941", "1941 - 1969"],
+  },
+  {
+    numb: 9,
+    question: "Nguồn gốc quyết định bản chất tư tưởng Hồ Chí Minh là:",
+    answer: "Chủ nghĩa Mác - Lênin",
+    options: [
+      "Giá trị truyền thống dân tộc",
+      "Chủ nghĩa Mác - Lênin",
+      "Tinh hoa văn hóa nhân loại",
+      "Phẩm chất cá nhân Hồ Chí Minh",
+    ],
+  },
+  {
+    numb: 10,
+    question: "Năm 1925, Hồ Chí Minh đã cải tổ Tâm Tâm xã thành tổ chức nào?",
+    answer: "Hội Việt Nam Cách mạng thanh niên",
+    options: [
+      "Hội Việt Nam Cách mạng thanh niên",
+      "Đảng Phục Việt",
+      "Đảng Hưng Nam",
+      "Việt Nam Quốc dân Đảng",
+    ],
+  },
+  {
+    numb: 11,
+    question:
+      "Một trong những nội dung cơ bản trong bản Yêu sách gồm tám điểm của Nguyễn Ái Quốc gửi đến Hội nghị Vecxây (Pháp) là: ",
+    answer: "Đòi quyền tự do dân chủ tối thiểu cho nhân dân An Nam.",
+    options: [
+      "Đòi quyền tự do dân chủ tối thiểu cho nhân dân An Nam.",
+      "Đòi quyền độc lập dân tộc.",
+      "Đòi quyền tự trị của dân tộc",
+      "Cả 3 ý đều sai",
+    ],
+  },
+  {
+    numb: 12,
+    question: "Lãnh tụ Nguyễn Ái Quốc đi tìm đường cứu nước khi nào?",
+    answer: "Ngày 5/6/1911",
+    options: [
+      "Ngày 5/6/1910",
+      "Ngày 6/5/1911",
+      "Ngày 5/6/1911",
+      "Ngày 19/5/1911",
+    ],
+  },
+  {
+    numb: 13,
+    question:
+      "Khi xuống con tàu Latusơ Tơrêvin đi tìm đường cứu nước, Bác Hồ lấy tên gọi là",
+    answer: "Văn Ba",
+    options: [
+      "Nguyễn Sinh Cung",
+      "Nguyễn Tất Thành",
+      "Nguyễn Ái Quốc",
+      "Văn Ba",
+    ],
+  },
+  {
+    numb: 14,
+    question:
+      "Nguyễn Ái Quốc tìm thấy con đường giải phóng dân tộc theo khuynh hướng chính trị vô sản vào thời gian nào? Ở đâu? ",
+    answer: "7/1920 - Pháp",
+    options: [
+      "6/1919 - Pháp",
+      "12/1920 - Pháp",
+      "7/1920 - Liên Xô",
+      "7/1920 - Pháp",
+    ],
+  },
+  {
+    numb: 15,
+    question:
+      "Nguyễn Ái Quốc đọc Sơ thảo lần thứ nhất Luận cương về những vấn đề dân tộc và vấn đề thuộc địa của Lênin khi nào? Ở đâu? ",
+    answer: "7/1920 - Pháp",
+    options: [
+      "7/1920 - Liên Xô",
+      "7/1920 - Pháp",
+      "7/1920 - Trung Quốc",
+      "7/1920 - Anh",
+    ],
+  },
+  {
+    numb: 16,
+    question:
+      'Khi giải thích về con đường đến với chủ nghĩa Lênin, Chủ tịch Hồ Chí Minh viết:"Lúc đầu, chính là (....), chứ chưa phải chủ nghĩa cộng sản đã đưa tôi tin theoLênin, tin theo Quốc tế thứ ba". Hãy điền vào chỗ còn thiếu:',
+    answer: "Chủ nghĩa yêu nước",
+    options: [
+      "Chủ nghĩa Mác",
+      "Lòng yêu nước",
+      "Chủ nghĩa dân tộc",
+      "Chủ nghĩa yêu nước",
+    ],
+  },
+  {
+    numb: 17,
+    question:
+      "Lãnh tụ Nguyễn Ái Quốc sau 30 năm tìm đường cứu nước đã trở về Tổ quốc vào ngày:",
+    answer: "28/1/1941",
+    options: ["28/1/1941", "8/2/1943", "28/1/1942", "8/2/1944"],
+  },
+  {
+    numb: 18,
+    question:
+      "Hoàn thành luận điểm nổi tiếng của Hồ Chí Minh: “Nếu nước được ….. mà dân không hưởng hạnh phúc tự do, thì …… cũng chẳng có nghĩa lý gì”:",
+    answer: "Độc lập",
+    options: ["Độc lập", "Tự do", "Giải phóng", "Hòa bình"],
+  },
+  {
+    numb: 19,
+    question: "Theo Hồ Chí Minh, độc lập, tự do là:",
+    answer: "Quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc.",
+    options: [
+      "Tạo hóa ban cho con người.",
+      "Trách nhiệm của các nước lớn phải bảo đảm cho các nước nhỏ.",
+      "Mong muốn của các dân tộc",
+      "Quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc.",
+    ],
+  },
+  {
+    numb: 20,
+    question: "Chủ tịch Hồ Chí Minh đã từng dạy học ở ngôi trường nào?",
+    answer: "Trường Dục Thanh (Phan Thiết)",
+    options: [
+      "Trường Tiểu học Vinh",
+      "Trường Pháp Việt Đông Ba (Huế)",
+      "Trường Quốc học Huế",
+      "Trường Dục Thanh (Phan Thiết)",
+    ],
+  },
 ];
